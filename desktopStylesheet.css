@@ -7,6 +7,9 @@ HW2: Build a Business Website
 Content: external style sheet for the website
 */
 
+
+
+
 /*banner for heading*/
 .banner {
     width: 100%;
@@ -44,6 +47,7 @@ h1 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 25%;
 }
 
 /*Current Navigation Tab*/
