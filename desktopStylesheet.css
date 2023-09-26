@@ -19,7 +19,7 @@ h1 {
 }
 
 /*navigation bar with links*/
-nav {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ nav {
 }
 
 /*Navigation Button Texts*/
-nav a {
+.navbar a {
     display: block;
     color: #2b2d42;
     text-align: center;
