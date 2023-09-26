@@ -39,7 +39,7 @@ h1 {
 }
 
 /*Current Navigation Tab*/
-.navbar a:active {
+.activetab {
     background-color: #d80032;
 }
 
