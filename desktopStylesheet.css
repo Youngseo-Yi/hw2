@@ -29,10 +29,15 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 25%;
 }
 
 nav a:hover {
     background-color: #5f5d5d;
+}
+
+nav a:active {
+    background-color: #484848;
 }
 
 .dropdown {
@@ -86,6 +91,13 @@ nav a:hover {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+/*Table Properties*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 /*700, 800 px/*
 
