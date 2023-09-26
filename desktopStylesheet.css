@@ -7,18 +7,25 @@ HW2: Build a Business Website
 Content: external style sheet for the website
 */
 
-/*header: logo, email, phone*/
-.header {
+/*banner for heading*/
+.banner {
     width: 100%;
+    display: block;
     color: #2b2d42;
     padding: 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h1 {
-    width: 100%;
     color: #d80032;
+    text-align: left;
 }
+
+/*p {
+    font-family: 
+}
+*/
+
 
 /*navigation bar with links*/
 .navbar {
@@ -108,12 +115,15 @@ h1 {
   }
 
 /*Table Properties*/
-table, th, td5 {
-    width: 90%;
+table {
+    width: 99%;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
+th, td {
+    width: 33%
+}
 /*700, 800 px/*
 
 <div class="dropdown">
