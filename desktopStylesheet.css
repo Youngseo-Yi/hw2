@@ -25,9 +25,10 @@ h1 {
     padding: 0;
     overflow: hidden;
     background-color: #8d99ae;
+    width: 100%;
 }
 
-/*Navigation Button Texts*/
+/*Navigation Main Button Texts*/
 .navbar a {
     display: block;
     color: #2b2d42;
@@ -37,11 +38,8 @@ h1 {
     width: 25%;
 }
 
-nav a:hover {
-    background-color: #ef233c;
-}
-
-nav a:active {
+/*Current Navigation Tab*/
+.navbar a:active {
     background-color: #d80032;
 }
 
@@ -62,7 +60,7 @@ nav a:active {
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  /* Add a red background color to navbar links on hover */
+  /*  navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:#ef233c;
   }
@@ -71,7 +69,7 @@ nav a:active {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #d80032;
+    background-color: #8d99ae;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
