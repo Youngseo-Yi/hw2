@@ -11,6 +11,8 @@ Content: external style sheet for the website
 .header {
     width: 100%;
     color: #2b2d42;
+    padding: 30px;
+    font-size: 30px;
 }
 
 h1 {
