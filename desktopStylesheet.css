@@ -24,7 +24,7 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d80032;
+    background-color: #8d99ae;
 }
 
 /*Navigation Button Texts*/
@@ -97,6 +97,15 @@ nav a:active {
     display: block;
   }
 
+  /*for mobile version*/
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
 
 /*Table Properties*/
 table, th, td5 {
