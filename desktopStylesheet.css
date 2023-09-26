@@ -55,7 +55,7 @@ nav a:active {
     font-size: 16px;
     border: none;
     outline: none;
-    color: #8d99ae;
+    color: #2b2d42;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -64,14 +64,14 @@ nav a:active {
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:#5f5d5d;
+    background-color:#ef233c;
   }
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #8d99ae;
+    background-color: #d80032;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
